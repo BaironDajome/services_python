@@ -1,0 +1,15 @@
+
+#Activar entorno vistual en linux
+source venv/bin/activate
+
+Desactivar el entorno virtual
+deactivate
+
+#dentro del entorno virtual para capturar solo las dependencias específicas del proyecto, no las globales del sistema
+pip freeze > requirements.txt
+
+#Para instalar dependencias desde requirements.txt en otro entorno
+pip install -r requirements.txt
+
+
+

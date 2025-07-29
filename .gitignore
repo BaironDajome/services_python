@@ -1,0 +1,58 @@
+# Entorno virtual
+env/
+venv/
+ENV/
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Archivos de configuración y sistema
+*.sqlite3
+*.log
+*.pot
+*.py[cod]
+*.swp
+*.swo
+*.bak
+
+# Configuración local
+local_settings.py
+db.sqlite3
+*.env
+
+# Archivos de compilación
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Archivos de VS Code, PyCharm, etc.
+.vscode/
+.idea/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos estáticos y de medios (si se generan automáticamente)
+staticfiles/
+media/
+
+# Coverage y testing
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+media/
+
+# Migrations (opcional, si quieres generarlas de cero en cada entorno)
+# **Solo si trabajas en equipo con migraciones sincronizadas**
+# Puedes eliminar esta parte si deseas versionarlas
+# */migrations/
+# !*/migrations/__init__.py
